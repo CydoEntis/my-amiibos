@@ -1,18 +1,60 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <the-header>
+      <template #cta>
+        <h1>The Ultimate Amiibo Tracker</h1>
+        <h2>Finally keep track of all the Amiibo's you collect</h2>
+        <!-- <button>Start Collecting!</button> -->
+        <router-link class="btn-secondary" to="/amiibos">
+          Start Collecting
+        </router-link>
+      </template>
+    </the-header>
+    <the-image-scroll />
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import TheHeader from "../components/headers/TheHeader.vue";
+import TheImageScroll from "../components/sliders/TheImageScroll.vue";
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
+  name: "Home",
+  components: { TheImageScroll, TheHeader },
+};
 </script>
+
+<style scoped>
+h1,
+h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 30px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  background: #009beb;
+  outline: none;
+  border: #009beb 2px solid;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+a:hover {
+  background: transparent;
+  border: #009beb 2px solid;
+  color: #009beb;
+  transition: 150ms ease-in-out;
+  cursor: pointer;
+}
+</style>
