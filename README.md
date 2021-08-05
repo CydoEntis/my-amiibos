@@ -2,11 +2,11 @@
 
 ### A Amiibo collection webiste, Keep track of all your current and future amiibos!
 
-My Amiibos allows you to track all your current and future amiibos with realtive ease. Simply search for your the amiibo in your collection and with one click/tap you can save that amiibo to your collection.
+My Amiibos allows you to track all your current and future amiibos with a quick click/tap. Simply search through all currently released amiibos and add them to your collection to see which ones you still have left to collect!
 
-Once an amiibo is added to your collection. Viewing is as easy as clicking on the collection button and seeing exactly what amiibos you have collected.
+Once an amiibo is added to your collection. Viewing is as easy as clicking on the collection button and seeing exactly which amiibos have been collected.
 
-![alt text](read-me-images/homepage.png)
+![Homepage](read-me-images/homepage.png)
 
 #### Features
 
@@ -16,7 +16,7 @@ Once an amiibo is added to your collection. Viewing is as easy as clicking on th
 - Click to add/remove an amiibo from your collection
 - View your entire collection.
 
-## Future Features/Updates
+## Planned Features
 
 - A way to login/logout to your own My Amiibo Collection account.
 - Removing amiibos from your collection within the collection page.
