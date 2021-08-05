@@ -61,6 +61,10 @@ export default {};
 }
 
 @media (max-width: 585px) {
+  #nav {
+    padding-top: 10px;
+  }
+
   #nav a {
     font-weight: 500;
     margin: 0 5px;

@@ -57,4 +57,19 @@ a:hover {
   transition: 150ms ease-in-out;
   cursor: pointer;
 }
+
+@media screen and (max-width: 590px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  a {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+}
 </style>
