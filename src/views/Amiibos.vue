@@ -63,9 +63,6 @@ export default {
       tempCollection: [],
     };
   },
-  // provide: {
-  //   amiibos: this.amiibos,
-  // },
   methods: {
     async fetchAmiibos() {
       this.loading = true;
