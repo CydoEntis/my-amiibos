@@ -8,6 +8,11 @@ Once an amiibo is added to your collection. Viewing is as easy as clicking on th
 
 ![Homepage](read-me-images/homepage.png)
 
+#### Technologies
+
+Vue Js
+API: https://www.amiiboapi.com/
+
 #### Features
 
 - Search by type: Figures, Cards, or Yarn.
